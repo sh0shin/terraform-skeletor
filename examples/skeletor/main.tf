@@ -2,9 +2,8 @@
 
 terraform {
   required_providers {
-    # <source>
-    #skeletor = {
-    #  source = ""
+    #<provider> = {
+    #  source = "<namespace>/<provider>"
     #}
   }
 }
