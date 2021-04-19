@@ -3,9 +3,7 @@
 terraform {
   required_version = "~>0.14"
   required_providers {
-    # <source>
-    # https://registry.terraform.io/providers/<source>/<version>/docs
-    #skeletor = {
+    # <namespace/provider> = {
     #  source  = ""
     #  version = ""
     #}
