@@ -10,6 +10,7 @@ sections:
     - outputs
     - providers
     - requirements
+    - resources
 #output-values:
 #  enabled: true
 #  from: ""
