@@ -1,8 +1,21 @@
 ---
+
+version: ">= 0.13.0, < 1.0.0"
+
 formatter: markdown document
 
 sections:
-  show-all: true
+  hide: []
+  show:
+    - data-sources
+    - header
+    - footer
+    - inputs
+    - modules
+    - outputs
+    - providers
+    - requirements
+    - resources
 
 output:
   file: "README.md"
@@ -18,8 +31,7 @@ output-values:
 
 sort:
   enabled: true
-  by:
-    - required
+  by: required
 
 settings:
   anchor: true
